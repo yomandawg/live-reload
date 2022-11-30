@@ -1,0 +1,16 @@
+{
+  "name": "live-reload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon --watch src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4"
+  }
+}
